@@ -1,0 +1,8 @@
+camconst.json
+dcpprofiles/
+iccprofiles/
+profiles/
+*.egg-info
+dist/
+build/
+*.jpg
