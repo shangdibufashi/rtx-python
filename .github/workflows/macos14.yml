@@ -113,6 +113,7 @@ jobs:
           ./scripts/bdist_wheel.sh
 
       - name: date
+        id: date
         run: echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
 
       - name: Publish artifacts

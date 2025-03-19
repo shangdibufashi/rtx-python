@@ -209,6 +209,7 @@ jobs:
           "$Python_ROOT_DIR"/python.exe pyrtz_test.py
 
       - name: date
+        id: date
         run: echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
 
       - name: Publish artifacts
